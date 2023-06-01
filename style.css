@@ -3,7 +3,10 @@ body {
     font-family: "poppins", sans-serif;
    margin: 0;
 }
-.sec1{
+section{
+    height: 600px;
+}
+.welcome{
     background-image: url("illustrator-works/bg.png");
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -12,17 +15,18 @@ body {
     
 }
 h1{
-    font-size: 50px;
+    font-size: 40px;
 }
-h1 .name-highlight{
+.name-highlight{
     color: orange;
 }
-.sec1 h3{
+.welcome h3{
     font-size: 25px;
 }
-.sec1-div1 p{
+.welcome-div1 p{
     font-size: 18px;
-    line-height: 25px;
+    line-height: 28px;
+    color: dimgrey;
 }
 .link-button{
     text-decoration: none;
@@ -32,24 +36,57 @@ h1 .name-highlight{
     background-image: linear-gradient(45deg,yellow,orange);
 
 }
-.sec1-div1{
-    width: 40%;
+.welcome-div1{
+    width: 38%;
     float: left;
     margin-left: 4%;
     padding-left: 3%;
    
 }
-.sec1-div1 img{
+.welcome-div1 img{
     width: 100%;
     padding: 2%;
 }
-.sec2 h3{
+.DREAM h3{
     font-size: 25px;
 }
-.sec2{
+.DREAM{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
-    height: 700px;
+    background-attachment: fixed;
+    height: 600px;
    
+}
+.experience-h3{
+    color: orange;
+    font-size: 22px;
+}
+.single-experiences{
+    box-shadow: 10px 10px 30px dimgray;
+    border-radius: 10px;
+    height: 60%;
+    padding-right: 3%;
+    background-color: white;
+}
+.experiences{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-attachment: fixed;
+}
+#full-stack{
+    border-left: 8px solid ;
+    border-image: linear-gradient(180deg,orange,tomato);
+    border-image-slice: 1;
+}
+#baby-web{
+    border-left: 8px solid ;
+    border-image: linear-gradient(180deg,blue,violet);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
+    font-size: 13px;
+    padding-top: 100px;
 }
